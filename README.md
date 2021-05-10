@@ -33,10 +33,11 @@ There's generally two sides to the discussion about Bitcoin and crypto. It is su
 The first part was straight forwarded, we found the Kaggle dataset and implemented some of the functions we learned in class to import the csv files, clean up the data, and make sure we could set our tables for our analysis.  We ended up having to pip install new libraries: Seaborns and Stats. 
 
 Challenges & Solutions:
-- Different datatypes: needed to convert, checked using dtypes, had to convert using loc
-- unable to edit using oringal imported csv - make new dataframes
+- Different datatypes: needed to convert datatypes for better manipulation, checked using dtypes that conversion was done correctly
+- Dataframe properties: Creating a dataframe named "bitcoin" and setting it equal to another called "bitcoin_q3" meant we created pointers (it pointed to the information), not buckets that contained the information. If we made changes to "bitcoin_q3", it would also affect "bitcoin". We ran into some issues when we modified the dataframe's index and other properities, so instead of 
 - graphing problems, allocate axis and titles
 - git hub challenges - reclone repository
+- Forecast model understanding - changing index to the date, and updating frequency
  
 
 # Post project experience

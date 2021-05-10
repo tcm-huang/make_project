@@ -31,6 +31,7 @@ Challenges & their Respective Solutions:
 # Post project experience
 
 Takeaways: 
+
 Heather: GitHub is a usedful tool for collaboration. I learned a lot more about the Seaborns library - specific details you can add like text to graphs, how to make specific plots, and what functions to use.
 
 Allen: I learned to make a complex set of data very readable and presentable through Jupyter notebook. It was helpful to create graphs and write comments so that when the read scrolls through, they can understand the code and the outputs from code, this is quite different than VSCode where we just see an output in terminal.

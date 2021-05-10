@@ -35,9 +35,9 @@ The first part was straight forwarded, we found the Kaggle dataset and implement
 Challenges & Solutions:
 - Different datatypes: needed to convert datatypes for better manipulation, checked using dtypes that conversion was done correctly
 - Dataframe properties: Creating a dataframe named "bitcoin" and setting it equal to another called "bitcoin_q3" meant we created pointers (it pointed to the information), not buckets that contained the information. If we made changes to "bitcoin_q3", it would also affect "bitcoin". We ran into some issues when we modified the dataframe's index and other properities, so instead of 
-- graphing problems, allocate axis and titles
-- git hub challenges - reclone repository
-- Forecast model understanding - changing index to the date, and updating frequency
+- Graphing problems: We had to assign axis titles and graph titles, so extending our seaborn libraries knowledge beyond the plot
+- Git hub challenges: Heather had some issues where if she forgot to "git pull" before working on the Jupyter notebook, she had to figure out a way to resolve conflicts before the merge could occur. In the end, there was once where she had to delete the cloned library in her personal files and reclone it.
+- Forecast model understanding: using the functions from statsmodels was more complex than at first anticipated. Diving furhter into the function, we found out that we also had to first change the index to the "Date" column, and update the frequency, whether it was 15 days or 3 months.
  
 
 # Post project experience
